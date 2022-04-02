@@ -15,6 +15,15 @@ class Feature1:
         return "Feature 1"
 
 
+class Feature2:
+    def __init__(self):
+        pass
+
+    @property
+    def name(self):
+        return 'Feature 2'
+
+
 if __name__ == "__main__":
 
     test = Test()
@@ -23,3 +32,5 @@ if __name__ == "__main__":
     feature1 = Feature1()
     print(feature1.name)
 
+    feature2 = Feature2()
+    print(feature2.name)
