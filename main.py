@@ -1,4 +1,5 @@
 from new_feature1 import NewFeature1
+from new_feature2 import NewFeature2
 #  This is a simple python script to test git workflow
 
 
@@ -39,3 +40,6 @@ if __name__ == "__main__":
 
     new_feature1 = NewFeature1()
     print(new_feature1.name)
+
+    new_feature2 = NewFeature2()
+    print(new_feature2.name)
