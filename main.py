@@ -2,9 +2,10 @@
 
 class Test:
     def __init__(self):
-         self.a = 25
+        self.a = 25
+        self.b = 10
 
 if __name__ == "__main__":
 
     test = Test()
-    print(test.a)
+    print(test.a, test.b)
