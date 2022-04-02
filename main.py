@@ -2,7 +2,7 @@
 
 class Test:
     def __init__(self):
-         self.b = 4
+         self.a = 4
 
 if __name__ == "__main__":
 
