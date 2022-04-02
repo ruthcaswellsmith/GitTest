@@ -5,6 +5,7 @@ class Test:
         self.a = 25
         self.b = 10
 
+
 if __name__ == "__main__":
 
     test = Test()
