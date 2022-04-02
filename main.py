@@ -2,8 +2,8 @@
 
 class Test:
     def __init__(self):
-        self.a = 4
         self.b = 10
+        self.a = 25
 
 if __name__ == "__main__":
 
